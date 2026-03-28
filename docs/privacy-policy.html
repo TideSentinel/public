@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>潮汐-Tide Sentinel 隐私权政策</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f6f7f9;
+        --card: #ffffff;
+        --text: #1f2937;
+        --muted: #6b7280;
+        --line: #e5e7eb;
+        --accent: #0f766e;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.7;
+      }
+
+      main {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 48px 20px 64px;
+      }
+
+      .card {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 20px;
+        padding: 32px;
+        box-shadow: 0 12px 32px rgba(15, 23, 42, 0.06);
+      }
+
+      h1,
+      h2 {
+        line-height: 1.3;
+        margin: 0 0 16px;
+      }
+
+      h1 {
+        font-size: 32px;
+      }
+
+      h2 {
+        font-size: 20px;
+        margin-top: 32px;
+      }
+
+      p,
+      li {
+        font-size: 15px;
+      }
+
+      .meta {
+        color: var(--muted);
+        margin-bottom: 24px;
+      }
+
+      ul {
+        padding-left: 20px;
+      }
+
+      a {
+        color: var(--accent);
+      }
+
+      code {
+        background: #f3f4f6;
+        border-radius: 6px;
+        padding: 2px 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="card">
+        <h1>潮汐-Tide Sentinel 隐私权政策</h1>
+        <p class="meta">最后更新日期：2026-03-28</p>
+
+        <p>
+          潮汐-Tide Sentinel（以下简称“本扩展”）用于在浏览器侧边栏中集中查看多个网站与社交平台的热点内容、账号动态和关键词搜索结果。
+          本政策说明本扩展会访问哪些信息、这些信息如何被使用，以及用户可如何管理相关数据。
+        </p>
+
+        <h2>1. 我们处理的信息</h2>
+        <ul>
+          <li>用户主动配置的数据，例如监控账号、搜索关键词、提醒设置、收藏内容与历史记录。</li>
+          <li>来自扩展支持站点的公开页面数据或接口返回内容，例如热点新闻、账号动态、搜索结果和媒体资源链接。</li>
+          <li>在部分平台运行监控或检索功能所需的登录态相关 Cookie 或请求上下文参数。</li>
+        </ul>
+
+        <h2>2. 信息的用途</h2>
+        <ul>
+          <li>在侧边栏中展示热点内容、账号动态和关键词搜索结果。</li>
+          <li>执行后台定时监控、搜索更新、历史记录保存和通知提醒。</li>
+          <li>在用户主动操作时提供媒体下载功能。</li>
+          <li>提升跨平台信息监测的连续性与使用体验。</li>
+        </ul>
+
+        <h2>3. 数据存储方式</h2>
+        <p>
+          本扩展的主要数据保存在用户浏览器本地存储中，例如 <code>browser.storage.local</code>
+          中的设置、历史、收藏和监控结果。本扩展不会默认将这些本地数据公开共享给其他用户。
+        </p>
+
+        <h2>4. 网络访问与第三方站点</h2>
+        <p>
+          为实现扩展的核心功能，本扩展会访问其支持的网站与社交平台，以获取公开热点信息、账号动态、搜索结果及相关媒体资源。
+          此外，本扩展会访问 <code>https://api.tide-sentinel.online/</code> 以获取扩展自身提供的热点新闻与舆情数据。
+        </p>
+
+        <h2>5. Cookie 与请求上下文</h2>
+        <p>
+          对于部分平台，本扩展会读取必要的登录态 Cookie 或请求参数，仅用于完成账号监控、关键词检索或兼容目标站点的访问要求。
+          这些信息仅在扩展功能运行所需范围内使用，不用于广告投放或出售给第三方。
+        </p>
+
+        <h2>6. 通知与下载</h2>
+        <ul>
+          <li>当监控内容或关键词命中时，本扩展可能根据用户设置发送浏览器通知。</li>
+          <li>当用户主动点击下载时，本扩展会使用浏览器下载能力保存图片或视频文件到本地设备。</li>
+        </ul>
+
+        <h2>7. 数据共享</h2>
+        <p>
+          除了为实现扩展功能而访问目标站点和上述接口服务外，本扩展不会主动将用户本地保存的数据出售、出租或无关共享给第三方。
+        </p>
+
+        <h2>8. 用户控制</h2>
+        <ul>
+          <li>用户可以随时删除扩展保存的历史记录、收藏内容和配置数据。</li>
+          <li>用户可以卸载扩展，以停止所有本地存储、通知和后台监控行为。</li>
+          <li>用户可以在浏览器设置中管理扩展权限授予情况。</li>
+        </ul>
+
+        <h2>9. 政策更新</h2>
+        <p>
+          如本扩展的数据处理方式发生变化，本页面内容将同步更新，更新后的版本以本页面展示内容为准。
+        </p>
+      </section>
+    </main>
+  </body>
+  </html>
